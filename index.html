@@ -332,9 +332,9 @@
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            background: rgba(65, 88, 208, 0.15);
-            border: 1px solid rgba(65, 88, 208, 0.3);
-            color: var(--blue);
+            background: rgba(107, 127, 232, 0.15);
+            border: 1px solid rgba(107, 127, 232, 0.3);
+            color: var(--blue-bright);
             padding: 8px 16px;
             border-radius: 50px;
             font-size: 13px;
@@ -345,7 +345,7 @@
         .hero-badge-dot {
             width: 8px;
             height: 8px;
-            background: var(--blue);
+            background: var(--blue-bright);
             border-radius: 50%;
             animation: pulse 2s infinite;
         }
@@ -357,6 +357,23 @@
             line-height: 1.1;
             margin-bottom: 24px;
             color: var(--white);
+        }
+
+        .hero-title .gradient-text {
+            background: linear-gradient(135deg, var(--blue-bright) 0%, var(--blue) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-buttons .btn-secondary {
+            color: var(--blue-bright);
+            border-color: var(--blue-bright);
+        }
+
+        .hero-buttons .btn-secondary:hover {
+            background: var(--blue-bright);
+            color: white;
         }
 
         .hero-subtitle {
