@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MDC Assembly LLC | Professional Furniture & Fixture Installation</title>
     <meta name="description" content="MDC Assembly LLC provides professional office furniture installation, cubicle installation, and corporate relocation services across Upstate New York including Rochester, Buffalo, Syracuse, and surrounding areas.">
-    <link rel="icon" type="image/png" href="mdc-logo.png">
+    <link rel="icon" type="image/x-icon" href="images/mdc-logo.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
@@ -615,6 +615,66 @@
             line-height: 1.7;
         }
 
+        /* Gallery Section */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: 16px;
+            overflow: hidden;
+            aspect-ratio: 4/3;
+            cursor: pointer;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .gallery-item-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 20px;
+            background: linear-gradient(transparent, rgba(15, 23, 42, 0.8));
+            color: white;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .gallery-item:hover .gallery-item-overlay {
+            opacity: 1;
+        }
+
+        .gallery-item-title {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
         /* Coverage Section */
         .coverage-grid {
             display: grid;
@@ -1078,7 +1138,7 @@
     <!-- Navigation -->
     <nav>
         <a href="#" class="logo">
-            <img src="mdc-logo.png" alt="MDC Assembly LLC" class="logo-icon">
+            <img src="images/mdc-logo.jpg" alt="MDC Assembly LLC" class="logo-icon">
         </a>
         <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Toggle menu">
             <span></span>
@@ -1088,6 +1148,7 @@
         <div class="nav-links" id="navLinks">
             <a href="#services" class="nav-link">Services</a>
             <a href="#about" class="nav-link">About</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
             <a href="#coverage" class="nav-link">Coverage</a>
             <a href="#contact" class="nav-link">Contact</a>
             <a href="tel:585-267-5064" class="btn-primary small">Call Now</a>
@@ -1277,8 +1338,59 @@
         </div>
     </section>
 
+    <!-- Gallery Section -->
+    <section id="gallery" class="section section-white">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Our Work</p>
+                <h2 class="section-title">Recent <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">
+                    See examples of our professional furniture and fixture installations across Upstate New York.
+                </p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/work-office-desk.jpg" alt="Office furniture installation">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-title">Office Furniture</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/work-conference-room.jpg" alt="Conference room setup">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-title">Conference Room</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/work-classroom.jpg" alt="Classroom furniture installation">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-title">School Classroom</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/work-school-reception.jpg" alt="School reception desk">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-title">School Reception</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/work-office-meeting.jpg" alt="Office with meeting area">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-title">Office Setup</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/work-retail-fixtures.jpg" alt="Retail store fixtures">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-title">Retail Fixtures</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Coverage Section -->
-    <section id="coverage" class="section section-white">
+    <section id="coverage" class="section section-gray">
         <div class="container">
             <div class="coverage-grid">
                 <div class="coverage-content">
@@ -1412,7 +1524,7 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="#" class="logo">
-                        <img src="mdc-logo.png" alt="MDC Assembly LLC" class="logo-icon">
+                        <img src="images/mdc-logo.jpg" alt="MDC Assembly LLC" class="logo-icon">
                     </a>
                     <p>Professional furniture and fixture installation services serving businesses throughout Upstate New York.</p>
                 </div>
