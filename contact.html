@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | MDC Assembly LLC | Get a Free Quote</title>
+    <meta name="description" content="Contact MDC Assembly LLC for a free furniture installation quote. Call 585-267-5064 or fill out our contact form. Serving Rochester, Buffalo, Syracuse and Upstate NY.">
+    <link rel="canonical" href="https://mdisplays.com/contact">
+
+    <meta property="og:title" content="Contact MDC Assembly LLC">
+    <meta property="og:description" content="Get a free quote for your furniture installation project. Serving businesses across Upstate New York.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mdisplays.com/contact">
+    <meta property="og:image" content="https://mdisplays.com/images/mdc-logo.jpg">
+
+    <link rel="icon" type="image/x-icon" href="images/mdc-logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="./" class="logo">
+            <img src="images/mdc-logo.jpg" alt="MDC Assembly LLC" class="logo-icon">
+        </a>
+        <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+            <div class="nav-dropdown">
+                <a href="#" class="nav-link">Services</a>
+                <div class="nav-dropdown-menu">
+                    <a href="services/office-furniture-installation.html">Office Furniture</a>
+                    <a href="services/cubicle-installation.html">Cubicle Installation</a>
+                    <a href="services/school-furniture.html">School Furniture</a>
+                    <a href="services/corporate-relocation.html">Corporate Relocation</a>
+                    <a href="services/retail-fixtures.html">Retail Fixtures</a>
+                    <a href="services/hospitality-installation.html">Hospitality</a>
+                </div>
+            </div>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="service-areas.html" class="nav-link">Service Areas</a>
+            <a href="contact.html" class="nav-link active">Contact</a>
+            <a href="tel:585-267-5064" class="btn-primary small">Call Now</a>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="./">Home</a>
+                <span>/</span>
+                <span>Contact</span>
+            </div>
+            <h1>Contact <span class="gradient-text">Us</span></h1>
+            <p>Get in touch for a free quote on your furniture installation project.</p>
+        </div>
+    </section>
+
+    <section class="section section-gray">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p class="section-label">Get In Touch</p>
+                    <h2>Let's Discuss Your <span class="gradient-text">Project</span></h2>
+                    <p>Have questions or ready to get started? Reach out to us directly or fill out the form and we'll get back to you promptly.</p>
+
+                    <div class="contact-detail">
+                        <div class="contact-detail-icon">📞</div>
+                        <div class="contact-detail-content">
+                            <h4>Phone</h4>
+                            <a href="tel:585-267-5064">585-267-5064</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-detail-icon">✉️</div>
+                        <div class="contact-detail-content">
+                            <h4>Email</h4>
+                            <a href="mailto:tom@mdisplays.com">tom@mdisplays.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-detail-icon">📍</div>
+                        <div class="contact-detail-content">
+                            <h4>Location</h4>
+                            <p>6375 Furnace Road, Dock C<br>Ontario, NY 14519</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                        <input type="hidden" name="access_key" value="921085d4-7a50-4a6c-95ac-296435c3cf1d">
+                        <input type="hidden" name="subject" value="New Contact from MDC Assembly Website">
+                        <h3>Send Us a Message</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label" for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="John Smith" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="company">Company</label>
+                                <input type="text" id="company" name="company" class="form-input" placeholder="Company Name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label" for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="john@company.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="(555) 123-4567">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="service">Service Needed</label>
+                            <select id="service" name="service" class="form-select">
+                                <option value="">Select a service...</option>
+                                <option value="office-furniture">Office Furniture Installation</option>
+                                <option value="cubicle">Cubicle Installation</option>
+                                <option value="school">School Furniture</option>
+                                <option value="relocation">Corporate Relocation</option>
+                                <option value="retail">Retail Store Fixtures</option>
+                                <option value="hospitality">Hospitality Installation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Project Details *</label>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your project, timeline, and any specific requirements..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width: 100%; padding: 16px;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="./" class="logo">
+                        <img src="images/mdc-logo.jpg" alt="MDC Assembly LLC" class="logo-icon">
+                    </a>
+                    <p>Professional furniture and fixture installation services serving businesses throughout Upstate New York.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services/office-furniture-installation.html">Office Furniture</a></li>
+                        <li><a href="services/cubicle-installation.html">Cubicle Installation</a></li>
+                        <li><a href="services/retail-fixtures.html">Retail Fixtures</a></li>
+                        <li><a href="services/corporate-relocation.html">Corporate Relocation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="service-areas.html">Service Areas</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:585-267-5064">585-267-5064</a></li>
+                        <li><a href="mailto:tom@mdisplays.com">tom@mdisplays.com</a></li>
+                        <li><a href="service-areas.html">Ontario, NY 14519</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MDC Assembly LLC. All rights reserved.</p>
+                <p>Professional Installation Services</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
