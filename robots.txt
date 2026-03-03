@@ -1,0 +1,8 @@
+# MDC Assembly LLC
+# https://mdisplays.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://mdisplays.com/sitemap.xml
