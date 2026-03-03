@@ -175,6 +175,14 @@ nav {
     position: relative;
 }
 
+.nav-dropdown-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+}
+
 .nav-dropdown-menu {
     position: absolute;
     top: 100%;
