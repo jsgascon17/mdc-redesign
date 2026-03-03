@@ -46,6 +46,7 @@ body {
     --gray-50: #F5F5F5;
     --gray-100: #EEEEEE;
     --gray-200: #E0E0E0;
+    --gray-300: #D1D5DB;
     --gray-400: #6B7280;
     --gray-500: #4B5563;
     --gray-600: #616161;
@@ -485,7 +486,7 @@ nav {
 .hero-subtitle {
     font-size: 18px;
     line-height: 1.8;
-    color: var(--gray-400);
+    color: var(--gray-300);
     margin-bottom: 36px;
     max-width: 550px;
 }
@@ -518,7 +519,7 @@ nav {
 
 .hero-stat-label {
     font-size: 14px;
-    color: var(--gray-400);
+    color: var(--gray-300);
 }
 
 /* Services Section */
@@ -1207,7 +1208,7 @@ footer {
 }
 
 .footer-brand p {
-    color: var(--gray-400);
+    color: var(--gray-300);
     font-size: 14px;
     line-height: 1.7;
     margin-bottom: 20px;
@@ -1226,7 +1227,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--gray-400);
+    color: var(--gray-300);
     text-decoration: none;
     transition: all 0.3s ease;
     font-size: 18px;
@@ -1258,7 +1259,7 @@ footer {
 }
 
 .footer-column a {
-    color: var(--gray-400);
+    color: var(--gray-300);
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s ease;
@@ -1279,7 +1280,7 @@ footer {
 }
 
 .footer-bottom p {
-    color: var(--gray-500);
+    color: var(--gray-300);
     font-size: 14px;
 }
 
