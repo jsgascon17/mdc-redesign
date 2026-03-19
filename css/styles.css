@@ -347,7 +347,7 @@ nav {
 }
 
 .section-dark .section-subtitle {
-    color: var(--gray-400);
+    color: var(--gray-200);
 }
 
 /* Page Hero (for inner pages) */
@@ -367,7 +367,7 @@ nav {
 
 .page-hero p {
     font-size: 18px;
-    color: var(--gray-400);
+    color: var(--gray-200);
     max-width: 600px;
     margin: 0 auto;
 }
@@ -390,7 +390,7 @@ nav {
 }
 
 .breadcrumb span {
-    color: var(--gray-400);
+    color: var(--gray-200);
 }
 
 /* Hero Section (Home) */
@@ -812,7 +812,7 @@ nav {
 
 .about-stat-label {
     font-size: 14px;
-    color: var(--gray-400);
+    color: var(--gray-200);
 }
 
 /* Why Choose Us Section */
@@ -856,8 +856,12 @@ nav {
 }
 
 .why-text {
+    color: var(--gray-200); /* Improved contrast */
+}
+
+.why-text-old {
     font-size: 14px;
-    color: var(--gray-400);
+    color: var(--gray-200);
     line-height: 1.7;
 }
 

@@ -205,6 +205,70 @@
                     <p>
                         Our installers are experienced with cubicle systems from all major manufacturers. We understand the unique requirements of each system and ensure proper installation according to manufacturer specifications.
                     </p>
+
+                    <!-- Manufacturers Logo Slider -->
+                    <style>
+                        .manufacturers-slider {
+                            overflow: hidden;
+                            background: #f8f9fa;
+                            padding: 30px 0;
+                            margin: 20px 0;
+                            border-radius: 10px;
+                        }
+                        .manufacturers-track {
+                            display: flex;
+                            gap: 40px;
+                            animation: scroll-logos 30s linear infinite;
+                        }
+                        .manufacturers-track img {
+                            height: 60px;
+                            width: auto;
+                            object-fit: contain;
+                            filter: grayscale(100%);
+                            opacity: 0.7;
+                            transition: all 0.3s ease;
+                        }
+                        .manufacturers-track img:hover {
+                            filter: grayscale(0%);
+                            opacity: 1;
+                        }
+                        @keyframes scroll-logos {
+                            0% { transform: translateX(0); }
+                            100% { transform: translateX(-50%); }
+                        }
+                        .manufacturers-slider:hover .manufacturers-track {
+                            animation-play-state: paused;
+                        }
+                    </style>
+                    <div class="manufacturers-slider">
+                        <div class="manufacturers-track">
+                            <img src="../images/manufacturers/steelcase.jpg" alt="Steelcase" loading="lazy">
+                            <img src="../images/manufacturers/hermanmiller.jpg" alt="Herman Miller" loading="lazy">
+                            <img src="../images/manufacturers/allsteel.jpg" alt="Allsteel" loading="lazy">
+                            <img src="../images/manufacturers/global-logo.jpg" alt="Global" loading="lazy">
+                            <img src="../images/manufacturers/hartworth-logo.jpg" alt="Haworth" loading="lazy">
+                            <img src="../images/manufacturers/KI-logo.jpg" alt="KI" loading="lazy">
+                            <img src="../images/manufacturers/knoll-logo.jpg" alt="Knoll" loading="lazy">
+                            <img src="../images/manufacturers/kimball-logo.jpg" alt="Kimball" loading="lazy">
+                            <img src="../images/manufacturers/mayline-logo.jpg" alt="Mayline" loading="lazy">
+                            <img src="../images/manufacturers/tekion-logo.jpg" alt="Teknion" loading="lazy">
+                            <img src="../images/manufacturers/trendway-logo.jpg" alt="Trendway" loading="lazy">
+                            <img src="../images/manufacturers/veresteel-logo.jpg" alt="Versteel" loading="lazy">
+                            <!-- Duplicate for seamless loop -->
+                            <img src="../images/manufacturers/steelcase.jpg" alt="Steelcase" loading="lazy">
+                            <img src="../images/manufacturers/hermanmiller.jpg" alt="Herman Miller" loading="lazy">
+                            <img src="../images/manufacturers/allsteel.jpg" alt="Allsteel" loading="lazy">
+                            <img src="../images/manufacturers/global-logo.jpg" alt="Global" loading="lazy">
+                            <img src="../images/manufacturers/hartworth-logo.jpg" alt="Haworth" loading="lazy">
+                            <img src="../images/manufacturers/KI-logo.jpg" alt="KI" loading="lazy">
+                            <img src="../images/manufacturers/knoll-logo.jpg" alt="Knoll" loading="lazy">
+                            <img src="../images/manufacturers/kimball-logo.jpg" alt="Kimball" loading="lazy">
+                            <img src="../images/manufacturers/mayline-logo.jpg" alt="Mayline" loading="lazy">
+                            <img src="../images/manufacturers/tekion-logo.jpg" alt="Teknion" loading="lazy">
+                            <img src="../images/manufacturers/trendway-logo.jpg" alt="Trendway" loading="lazy">
+                            <img src="../images/manufacturers/veresteel-logo.jpg" alt="Versteel" loading="lazy">
+                        </div>
+                    </div>
                 </div>
 
                 <aside class="service-sidebar">
@@ -230,7 +294,7 @@
                         <h3>Contact Us</h3>
                         <ul>
                             <li><a href="tel:585-267-5064">585-267-5064</a></li>
-                            <li><a href="mailto:tom@mdisplays.com">tom@mdisplays.com</a></li>
+                            <li><a href="mailto:info@mdisplays.com">info@mdisplays.com</a></li>
                         </ul>
                     </div>
                 </aside>
@@ -281,7 +345,7 @@
                     <h2 class="footer-heading">Contact</h2>
                     <ul>
                         <li><a href="tel:585-267-5064">585-267-5064</a></li>
-                        <li><a href="mailto:tom@mdisplays.com">tom@mdisplays.com</a></li>
+                        <li><a href="mailto:info@mdisplays.com">info@mdisplays.com</a></li>
                         <li><a href="../service-areas.html">Ontario, NY 14519</a></li>
                     </ul>
                 </div>
