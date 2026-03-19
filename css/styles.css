@@ -1212,8 +1212,8 @@ footer {
 }
 
 .footer-brand .logo img {
-    filter: brightness(0) invert(1);
-    mix-blend-mode: normal;
+    /* filter removed - need white PNG logo */
+    
 }
 
 .footer-brand p {
