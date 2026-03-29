@@ -211,18 +211,28 @@
                         .manufacturers-slider {
                             overflow: hidden;
                             background: #f8f9fa;
-                            padding: 30px 0;
+                            padding: 20px 0;
                             margin: 20px 0;
                             border-radius: 10px;
+                            max-width: 100%;
+                            position: relative;
                         }
                         .manufacturers-track {
                             display: flex;
-                            gap: 40px;
-                            animation: scroll-logos 30s linear infinite;
+                            gap: 30px;
+                            animation: scroll-logos 25s linear infinite;
+                            width: max-content;
+                        }
+                        .manufacturers-track a {
+                            flex-shrink: 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
                         }
                         .manufacturers-track img {
-                            height: 60px;
+                            height: 45px;
                             width: auto;
+                            max-width: 120px;
                             object-fit: contain;
                             filter: grayscale(100%);
                             opacity: 0.7;
