@@ -467,30 +467,30 @@
                     <a href="service-areas.html" class="btn-secondary" style="margin-top: 24px;">View All Service Areas</a>
                 </div>
                 <div class="coverage-map" style="background: #fafaf7; padding: 40px 24px;">
-                    <svg viewBox="-5 -5 310 210" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;">
-                        <path d="M5.1,133.3L5.1,121.7L26.0,109.7L32.2,98.9L32.2,87.3L43.2,79.6L76.8,75.3L107.9,68.8L126.2,62.4L134.6,49.5L148.2,40.9L167.6,28.0L184.8,17.2L199.4,8.6L219.5,3.9L239.6,12.9L239.6,36.6L243.3,60.2L242.2,79.6L243.3,101.1L227.6,131.2L225.7,154.8L225.7,167.7L214.8,174.2L208.5,182.8L225.0,191.4L241.5,193.5L267.1,193.5L289.0,184.9L294.5,174.2L270.7,174.2L248.8,176.3L232.3,176.3L225.7,167.7L190.2,161.3L175.6,150.5L166.5,137.6L122.6,133.3L5.1,133.3Z" fill="#eeeee8" stroke="#c8c8c0" stroke-width="2" stroke-linejoin="round"/>
-                            <circle cx="83.8" cy="83.4" r="14" fill="rgba(65,88,208,0.10)" stroke="none"/>
-                            <circle cx="83.8" cy="83.4" r="5" fill="#4158D0"/>
-                            <circle cx="83.8" cy="83.4" r="8" fill="none" stroke="#4158D0" stroke-width="1.5" opacity="0.35"/>
-                            <text x="95" y="78" fill="#4158D0" font-size="9" font-family="Inter, sans-serif" font-weight="700">Rochester</text>
-                            <circle cx="37.3" cy="95.1" r="5" fill="#4158D0"/>
-                            <circle cx="37.3" cy="95.1" r="8" fill="none" stroke="#4158D0" stroke-width="1.5" opacity="0.35"/>
-                            <text x="29.3" y="99.1" fill="#4a5058" font-size="8" font-family="Inter, sans-serif" font-weight="500" text-anchor="end">Buffalo</text>
-                            <circle cx="137.2" cy="88.2" r="5" fill="#4158D0"/>
-                            <circle cx="137.2" cy="88.2" r="8" fill="none" stroke="#4158D0" stroke-width="1.5" opacity="0.35"/>
-                            <text x="145.2" y="92.2" fill="#4a5058" font-size="8" font-family="Inter, sans-serif" font-weight="500" text-anchor="start">Syracuse</text>
-                            <circle cx="145.6" cy="129.0" r="5" fill="#4158D0"/>
-                            <circle cx="145.6" cy="129.0" r="8" fill="none" stroke="#4158D0" stroke-width="1.5" opacity="0.35"/>
-                            <text x="145.6" y="142" fill="#4a5058" font-size="8" font-family="Inter, sans-serif" font-weight="500" text-anchor="middle">Binghamton</text>
-                            <circle cx="124.4" cy="114.4" r="5" fill="#4158D0"/>
-                            <circle cx="124.4" cy="114.4" r="8" fill="none" stroke="#4158D0" stroke-width="1.5" opacity="0.35"/>
-                            <text x="132.4" y="118.4" fill="#4a5058" font-size="8" font-family="Inter, sans-serif" font-weight="500" text-anchor="start">Ithaca</text>
-                            <circle cx="170.9" cy="86.0" r="5" fill="#4158D0"/>
-                            <circle cx="170.9" cy="86.0" r="8" fill="none" stroke="#4158D0" stroke-width="1.5" opacity="0.35"/>
-                            <text x="178.9" y="90.0" fill="#4a5058" font-size="8" font-family="Inter, sans-serif" font-weight="500" text-anchor="start">Utica</text>
-                            <circle cx="24.1" cy="129.0" r="5" fill="#4158D0"/>
-                            <circle cx="24.1" cy="129.0" r="8" fill="none" stroke="#4158D0" stroke-width="1.5" opacity="0.35"/>
-                            <text x="16.1" y="133.0" fill="#4a5058" font-size="8" font-family="Inter, sans-serif" font-weight="500" text-anchor="end">Jamestown</text>
+                    <svg viewBox="10 -10 235 125" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;">
+                        <path d="M125,2L131,5L138,7L145,6L155,3L163,6L168,12L172,20L178,25L185,24L192,28L196,35L200,30L205,28L212,32L218,38L222,45L228,50L232,58L230,65L225,72L220,78L215,85L210,92L205,98L198,102L190,105L182,100L175,96L168,98L160,102L152,105L145,102L138,98L130,95L122,98L115,102L108,100L100,95L92,90L85,85L78,82L70,78L62,75L55,72L48,68L42,62L38,55L35,48L32,40L30,32L28,25L26,18L25,12L28,8L35,5L42,3L50,2L58,2L65,3L72,3L80,2L88,2L95,2L102,2L110,2L118,2Z" fill="#f0efe8" stroke="#b4b2a9" stroke-width="1.5"/>
+                            <circle cx="95" cy="28" r="14" fill="rgba(65,88,208,0.10)" stroke="none"/>
+                            <circle cx="95" cy="28" r="5" fill="#4158D0"/>
+                            <circle cx="95" cy="28" r="7.5" fill="none" stroke="#4158D0" stroke-width="1.2" opacity="0.4"/>
+                            <text x="103" y="32" fill="#4158D0" font-size="9" font-family="Inter, sans-serif" font-weight="700">Rochester</text>
+                            <circle cx="58" cy="38" r="3.5" fill="#4158D0"/>
+                            <circle cx="58" cy="38" r="5.5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="49" y="42" fill="#4a5058" font-size="8" font-family="Inter, sans-serif" font-weight="500" text-anchor="end">Buffalo</text>
+                            <circle cx="128" cy="35" r="3.5" fill="#4158D0"/>
+                            <circle cx="128" cy="35" r="5.5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="137" y="39" fill="#4a5058" font-size="8" font-family="Inter, sans-serif" font-weight="500" text-anchor="start">Syracuse</text>
+                            <circle cx="138" cy="82" r="3.5" fill="#4158D0"/>
+                            <circle cx="138" cy="82" r="5.5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="138" y="95" fill="#4a5058" font-size="8" font-family="Inter, sans-serif" font-weight="500" text-anchor="middle">Binghamton</text>
+                            <circle cx="118" cy="65" r="3.5" fill="#4158D0"/>
+                            <circle cx="118" cy="65" r="5.5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="127" y="69" fill="#4a5058" font-size="8" font-family="Inter, sans-serif" font-weight="500" text-anchor="start">Ithaca</text>
+                            <circle cx="155" cy="32" r="3.5" fill="#4158D0"/>
+                            <circle cx="155" cy="32" r="5.5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="164" y="36" fill="#4a5058" font-size="8" font-family="Inter, sans-serif" font-weight="500" text-anchor="start">Utica</text>
+                            <circle cx="38" cy="52" r="3.5" fill="#4158D0"/>
+                            <circle cx="38" cy="52" r="5.5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="29" y="56" fill="#4a5058" font-size="8" font-family="Inter, sans-serif" font-weight="500" text-anchor="end">Jamestown</text>
                     </svg>
                 </div>
             </div>
@@ -517,7 +517,7 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="./" class="logo">
-                        <img src="images/mdc-logo-inverted.jpg" alt="MDC Assembly LLC" class="logo-icon" width="400" height="123">
+                        <img src="images/mdc-logo.jpg" alt="MDC Assembly LLC" class="logo-icon" width="400" height="123">
                     </a>
                     <p>Professional commercial furniture and fixture installation services serving businesses throughout Western and Central New York.</p>
                 </div>

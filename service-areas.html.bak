@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Areas | MDC Assembly LLC | Western and Central New York</title>
+    <meta name="description" content="MDC Assembly LLC serves Rochester, Buffalo, Syracuse, Binghamton, Ithaca, Utica, and Jamestown. Professional furniture installation services across Western and Central New York.">
+    <link rel="canonical" href="https://mdisplays.com/service-areas">
+
+    <meta property="og:title" content="Service Areas | MDC Assembly LLC">
+    <meta property="og:description" content="Professional furniture installation across Western and Central New York. Serving Rochester, Buffalo, Syracuse, and surrounding areas.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mdisplays.com/service-areas">
+    <meta property="og:image" content="https://mdisplays.com/images/mdc-logo.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Service Areas | MDC Assembly LLC">
+    <meta name="twitter:description" content="Professional furniture installation across Western and Central New York. Serving Rochester, Buffalo, Syracuse, and surrounding areas.">
+    <meta name="twitter:image" content="https://mdisplays.com/images/mdc-logo.jpg">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "MDC Assembly LLC",
+        "description": "Professional commercial furniture and fixture installation serving Western and Central New York",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "2480 Browncroft Blvd, Suite 206",
+            "addressLocality": "Rochester",
+            "addressRegion": "NY",
+            "postalCode": "14625"
+        },
+        "areaServed": [
+            {"@type": "City", "name": "Rochester", "addressRegion": "NY"},
+            {"@type": "City", "name": "Buffalo", "addressRegion": "NY"},
+            {"@type": "City", "name": "Syracuse", "addressRegion": "NY"},
+            {"@type": "City", "name": "Binghamton", "addressRegion": "NY"},
+            {"@type": "City", "name": "Ithaca", "addressRegion": "NY"},
+            {"@type": "City", "name": "Utica", "addressRegion": "NY"},
+            {"@type": "City", "name": "Jamestown", "addressRegion": "NY"}
+        ]
+    }
+    </script>
+
+    <link rel="icon" type="image/x-icon" href="images/mdc-logo.jpg">
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="images/mdc-logo.jpg" as="image">
+
+    <!-- Google Fonts - load asynchronously -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet"></noscript>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <nav>
+        <a href="./" class="logo">
+            <img src="images/mdc-logo.jpg" alt="MDC Assembly LLC" class="logo-icon" width="400" height="123">
+        </a>
+        <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+            <div class="nav-dropdown">
+                <button class="nav-link nav-dropdown-btn" aria-haspopup="true" aria-expanded="false">Services</button>
+                <div class="nav-dropdown-menu" role="menu">
+                    <a href="services/office-furniture-installation.html" role="menuitem">Office Furniture</a>
+                    <a href="services/cubicle-installation.html" role="menuitem">Cubicle Installation</a>
+                    <a href="services/school-furniture.html" role="menuitem">School Furniture</a>
+                    <a href="services/corporate-relocation.html" role="menuitem">Corporate Relocation</a>
+                    <a href="services/retail-fixtures.html" role="menuitem">Retail Fixtures</a>
+                    <a href="services/hospitality-installation.html" role="menuitem">Hospitality</a>
+                </div>
+            </div>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="service-areas.html" class="nav-link active">Service Areas</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="tel:585-267-5064" class="btn-primary small">Call Now</a>
+        </div>
+    </nav>
+
+    <main>
+    <section class="page-hero" id="main-content">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="./">Home</a>
+                <span>/</span>
+                <span>Service Areas</span>
+            </div>
+            <h1>Service <span class="gradient-text">Areas</span></h1>
+            <p>Serving businesses across Western and Central New York.</p>
+        </div>
+    </section>
+
+    <section class="section section-white">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Where We Work</p>
+                <h2 class="section-title">Serving <span class="gradient-text">Western and Central New York</span></h2>
+                <p class="section-subtitle">
+                    Based in Rochester, NY, MDC Assembly LLC provides professional commercial furniture and fixture installation services throughout Western and Central New York.
+                </p>
+            </div>
+
+            <div class="cities-grid">
+                <div class="city-card">
+                    <svg class="city-map" viewBox="15 -5 225 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M125,2L131,5L138,7L145,6L155,3L163,6L168,12L172,20L178,25L185,24L192,28L196,35L200,30L205,28L212,32L218,38L222,45L228,50L232,58L230,65L225,72L220,78L215,85L210,92L205,98L198,102L190,105L182,100L175,96L168,98L160,102L152,105L145,102L138,98L130,95L122,98L115,102L108,100L100,95L92,90L85,85L78,82L70,78L62,75L55,72L48,68L42,62L38,55L35,48L32,40L30,32L28,25L26,18L25,12L28,8L35,5L42,3L50,2L58,2L65,3L72,3L80,2L88,2L95,2L102,2L110,2L118,2Z" fill="#f0efe8" stroke="#b4b2a9" stroke-width="1.5"/>
+                        <circle cx="95" cy="28" r="12" fill="rgba(65,88,208,0.08)" stroke="none"/>
+                        <circle cx="95" cy="28" r="4" fill="#4158D0"/>
+                        <circle cx="95" cy="28" r="6" fill="none" stroke="#4158D0" stroke-width="1.2" opacity="0.4"/>
+                    </svg>
+                    <h3 class="city-name">Rochester</h3>
+                </div>
+                <div class="city-card">
+                    <svg class="city-map" viewBox="15 -5 225 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M125,2L131,5L138,7L145,6L155,3L163,6L168,12L172,20L178,25L185,24L192,28L196,35L200,30L205,28L212,32L218,38L222,45L228,50L232,58L230,65L225,72L220,78L215,85L210,92L205,98L198,102L190,105L182,100L175,96L168,98L160,102L152,105L145,102L138,98L130,95L122,98L115,102L108,100L100,95L92,90L85,85L78,82L70,78L62,75L55,72L48,68L42,62L38,55L35,48L32,40L30,32L28,25L26,18L25,12L28,8L35,5L42,3L50,2L58,2L65,3L72,3L80,2L88,2L95,2L102,2L110,2L118,2Z" fill="#f0efe8" stroke="#b4b2a9" stroke-width="1.5"/>
+                        <circle cx="58" cy="38" r="12" fill="rgba(65,88,208,0.08)" stroke="none"/>
+                        <circle cx="58" cy="38" r="4" fill="#4158D0"/>
+                        <circle cx="58" cy="38" r="6" fill="none" stroke="#4158D0" stroke-width="1.2" opacity="0.4"/>
+                    </svg>
+                    <h3 class="city-name">Buffalo</h3>
+                </div>
+                <div class="city-card">
+                    <svg class="city-map" viewBox="15 -5 225 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M125,2L131,5L138,7L145,6L155,3L163,6L168,12L172,20L178,25L185,24L192,28L196,35L200,30L205,28L212,32L218,38L222,45L228,50L232,58L230,65L225,72L220,78L215,85L210,92L205,98L198,102L190,105L182,100L175,96L168,98L160,102L152,105L145,102L138,98L130,95L122,98L115,102L108,100L100,95L92,90L85,85L78,82L70,78L62,75L55,72L48,68L42,62L38,55L35,48L32,40L30,32L28,25L26,18L25,12L28,8L35,5L42,3L50,2L58,2L65,3L72,3L80,2L88,2L95,2L102,2L110,2L118,2Z" fill="#f0efe8" stroke="#b4b2a9" stroke-width="1.5"/>
+                        <circle cx="128" cy="35" r="12" fill="rgba(65,88,208,0.08)" stroke="none"/>
+                        <circle cx="128" cy="35" r="4" fill="#4158D0"/>
+                        <circle cx="128" cy="35" r="6" fill="none" stroke="#4158D0" stroke-width="1.2" opacity="0.4"/>
+                    </svg>
+                    <h3 class="city-name">Syracuse</h3>
+                </div>
+                <div class="city-card">
+                    <svg class="city-map" viewBox="15 -5 225 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M125,2L131,5L138,7L145,6L155,3L163,6L168,12L172,20L178,25L185,24L192,28L196,35L200,30L205,28L212,32L218,38L222,45L228,50L232,58L230,65L225,72L220,78L215,85L210,92L205,98L198,102L190,105L182,100L175,96L168,98L160,102L152,105L145,102L138,98L130,95L122,98L115,102L108,100L100,95L92,90L85,85L78,82L70,78L62,75L55,72L48,68L42,62L38,55L35,48L32,40L30,32L28,25L26,18L25,12L28,8L35,5L42,3L50,2L58,2L65,3L72,3L80,2L88,2L95,2L102,2L110,2L118,2Z" fill="#f0efe8" stroke="#b4b2a9" stroke-width="1.5"/>
+                        <circle cx="138" cy="82" r="12" fill="rgba(65,88,208,0.08)" stroke="none"/>
+                        <circle cx="138" cy="82" r="4" fill="#4158D0"/>
+                        <circle cx="138" cy="82" r="6" fill="none" stroke="#4158D0" stroke-width="1.2" opacity="0.4"/>
+                    </svg>
+                    <h3 class="city-name">Binghamton</h3>
+                </div>
+                <div class="city-card">
+                    <svg class="city-map" viewBox="15 -5 225 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M125,2L131,5L138,7L145,6L155,3L163,6L168,12L172,20L178,25L185,24L192,28L196,35L200,30L205,28L212,32L218,38L222,45L228,50L232,58L230,65L225,72L220,78L215,85L210,92L205,98L198,102L190,105L182,100L175,96L168,98L160,102L152,105L145,102L138,98L130,95L122,98L115,102L108,100L100,95L92,90L85,85L78,82L70,78L62,75L55,72L48,68L42,62L38,55L35,48L32,40L30,32L28,25L26,18L25,12L28,8L35,5L42,3L50,2L58,2L65,3L72,3L80,2L88,2L95,2L102,2L110,2L118,2Z" fill="#f0efe8" stroke="#b4b2a9" stroke-width="1.5"/>
+                        <circle cx="118" cy="65" r="12" fill="rgba(65,88,208,0.08)" stroke="none"/>
+                        <circle cx="118" cy="65" r="4" fill="#4158D0"/>
+                        <circle cx="118" cy="65" r="6" fill="none" stroke="#4158D0" stroke-width="1.2" opacity="0.4"/>
+                    </svg>
+                    <h3 class="city-name">Ithaca</h3>
+                </div>
+                <div class="city-card">
+                    <svg class="city-map" viewBox="15 -5 225 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M125,2L131,5L138,7L145,6L155,3L163,6L168,12L172,20L178,25L185,24L192,28L196,35L200,30L205,28L212,32L218,38L222,45L228,50L232,58L230,65L225,72L220,78L215,85L210,92L205,98L198,102L190,105L182,100L175,96L168,98L160,102L152,105L145,102L138,98L130,95L122,98L115,102L108,100L100,95L92,90L85,85L78,82L70,78L62,75L55,72L48,68L42,62L38,55L35,48L32,40L30,32L28,25L26,18L25,12L28,8L35,5L42,3L50,2L58,2L65,3L72,3L80,2L88,2L95,2L102,2L110,2L118,2Z" fill="#f0efe8" stroke="#b4b2a9" stroke-width="1.5"/>
+                        <circle cx="155" cy="32" r="12" fill="rgba(65,88,208,0.08)" stroke="none"/>
+                        <circle cx="155" cy="32" r="4" fill="#4158D0"/>
+                        <circle cx="155" cy="32" r="6" fill="none" stroke="#4158D0" stroke-width="1.2" opacity="0.4"/>
+                    </svg>
+                    <h3 class="city-name">Utica</h3>
+                </div>
+                <div class="city-card">
+                    <svg class="city-map" viewBox="15 -5 225 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M125,2L131,5L138,7L145,6L155,3L163,6L168,12L172,20L178,25L185,24L192,28L196,35L200,30L205,28L212,32L218,38L222,45L228,50L232,58L230,65L225,72L220,78L215,85L210,92L205,98L198,102L190,105L182,100L175,96L168,98L160,102L152,105L145,102L138,98L130,95L122,98L115,102L108,100L100,95L92,90L85,85L78,82L70,78L62,75L55,72L48,68L42,62L38,55L35,48L32,40L30,32L28,25L26,18L25,12L28,8L35,5L42,3L50,2L58,2L65,3L72,3L80,2L88,2L95,2L102,2L110,2L118,2Z" fill="#f0efe8" stroke="#b4b2a9" stroke-width="1.5"/>
+                        <circle cx="38" cy="52" r="12" fill="rgba(65,88,208,0.08)" stroke="none"/>
+                        <circle cx="38" cy="52" r="4" fill="#4158D0"/>
+                        <circle cx="38" cy="52" r="6" fill="none" stroke="#4158D0" stroke-width="1.2" opacity="0.4"/>
+                    </svg>
+                    <h3 class="city-name">Jamestown</h3>
+                </div>
+                <div class="city-card">
+                    <svg class="city-map" viewBox="15 -5 225 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M125,2L131,5L138,7L145,6L155,3L163,6L168,12L172,20L178,25L185,24L192,28L196,35L200,30L205,28L212,32L218,38L222,45L228,50L232,58L230,65L225,72L220,78L215,85L210,92L205,98L198,102L190,105L182,100L175,96L168,98L160,102L152,105L145,102L138,98L130,95L122,98L115,102L108,100L100,95L92,90L85,85L78,82L70,78L62,75L55,72L48,68L42,62L38,55L35,48L32,40L30,32L28,25L26,18L25,12L28,8L35,5L42,3L50,2L58,2L65,3L72,3L80,2L88,2L95,2L102,2L110,2L118,2Z" fill="#f0efe8" stroke="#b4b2a9" stroke-width="1.5"/>
+                        <circle cx="105" cy="78" r="12" fill="rgba(65,88,208,0.08)" stroke="none"/>
+                        <circle cx="105" cy="78" r="4" fill="#4158D0"/>
+                        <circle cx="105" cy="78" r="6" fill="none" stroke="#4158D0" stroke-width="1.2" opacity="0.4"/>
+                    </svg>
+                    <h3 class="city-name">Elmira</h3>
+                </div>
+                <div class="city-card">
+                    <svg class="city-map" viewBox="15 -5 225 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M125,2L131,5L138,7L145,6L155,3L163,6L168,12L172,20L178,25L185,24L192,28L196,35L200,30L205,28L212,32L218,38L222,45L228,50L232,58L230,65L225,72L220,78L215,85L210,92L205,98L198,102L190,105L182,100L175,96L168,98L160,102L152,105L145,102L138,98L130,95L122,98L115,102L108,100L100,95L92,90L85,85L78,82L70,78L62,75L55,72L48,68L42,62L38,55L35,48L32,40L30,32L28,25L26,18L25,12L28,8L35,5L42,3L50,2L58,2L65,3L72,3L80,2L88,2L95,2L102,2L110,2L118,2Z" fill="#f0efe8" stroke="#b4b2a9" stroke-width="1.5"/>
+                        <circle cx="112" cy="42" r="12" fill="rgba(65,88,208,0.08)" stroke="none"/>
+                        <circle cx="112" cy="42" r="4" fill="#4158D0"/>
+                        <circle cx="112" cy="42" r="6" fill="none" stroke="#4158D0" stroke-width="1.2" opacity="0.4"/>
+                    </svg>
+                    <h3 class="city-name">Auburn</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-gray">
+        <div class="container">
+            <div class="coverage-grid">
+                <div class="coverage-content">
+                    <p class="section-label">Our Location</p>
+                    <h2>Based in <span class="gradient-text">Rochester, NY</span></h2>
+                    <p>
+                        Our office is based in Rochester, NY, with our warehouse centrally located in Ontario, NY, giving us easy access to businesses throughout Western and Central New York including Rochester, Buffalo, Syracuse, and surrounding areas.
+                    </p>
+                    <p>
+                        Don't see your city listed? Contact us anyway - we're happy to discuss projects outside our typical service area for larger installations.
+                    </p>
+                    <div style="margin-top: 24px;">
+                        <strong style="color: var(--dark-gray);">Office:</strong><br>
+                        <span style="color: var(--gray-600);">2480 Browncroft Blvd, Suite 206<br>Rochester, NY 14625</span>
+                    </div>
+                </div>
+                <div class="coverage-map" style="background: #fafaf7; padding: 40px 30px;">
+                    <svg viewBox="10 -10 235 125" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; max-width: 380px;">
+                        <path d="M125,2L131,5L138,7L145,6L155,3L163,6L168,12L172,20L178,25L185,24L192,28L196,35L200,30L205,28L212,32L218,38L222,45L228,50L232,58L230,65L225,72L220,78L215,85L210,92L205,98L198,102L190,105L182,100L175,96L168,98L160,102L152,105L145,102L138,98L130,95L122,98L115,102L108,100L100,95L92,90L85,85L78,82L70,78L62,75L55,72L48,68L42,62L38,55L35,48L32,40L30,32L28,25L26,18L25,12L28,8L35,5L42,3L50,2L58,2L65,3L72,3L80,2L88,2L95,2L102,2L110,2L118,2Z" fill="#f0efe8" stroke="#b4b2a9" stroke-width="1.5"/>
+                            <circle cx="95" cy="28" r="14" fill="rgba(65,88,208,0.10)" stroke="none"/>
+                            <circle cx="95" cy="28" r="5" fill="#4158D0"/>
+                            <circle cx="95" cy="28" r="7.5" fill="none" stroke="#4158D0" stroke-width="1.2" opacity="0.4"/>
+                            <text x="103" y="32" fill="#4158D0" font-size="9" font-family="Inter, sans-serif" font-weight="700">Rochester</text>
+                            <circle cx="58" cy="38" r="3" fill="#4158D0"/>
+                            <circle cx="58" cy="38" r="5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="50" y="42" fill="#4a5058" font-size="7.5" font-family="Inter, sans-serif" font-weight="500" text-anchor="end">Buffalo</text>
+                            <circle cx="128" cy="35" r="3" fill="#4158D0"/>
+                            <circle cx="128" cy="35" r="5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="136" y="39" fill="#4a5058" font-size="7.5" font-family="Inter, sans-serif" font-weight="500" text-anchor="start">Syracuse</text>
+                            <circle cx="138" cy="82" r="3" fill="#4158D0"/>
+                            <circle cx="138" cy="82" r="5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="138" y="94" fill="#4a5058" font-size="7.5" font-family="Inter, sans-serif" font-weight="500" text-anchor="middle">Binghamton</text>
+                            <circle cx="118" cy="65" r="3" fill="#4158D0"/>
+                            <circle cx="118" cy="65" r="5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="126" y="69" fill="#4a5058" font-size="7.5" font-family="Inter, sans-serif" font-weight="500" text-anchor="start">Ithaca</text>
+                            <circle cx="155" cy="32" r="3" fill="#4158D0"/>
+                            <circle cx="155" cy="32" r="5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="163" y="36" fill="#4a5058" font-size="7.5" font-family="Inter, sans-serif" font-weight="500" text-anchor="start">Utica</text>
+                            <circle cx="38" cy="52" r="3" fill="#4158D0"/>
+                            <circle cx="38" cy="52" r="5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="30" y="56" fill="#4a5058" font-size="7.5" font-family="Inter, sans-serif" font-weight="500" text-anchor="end">Jamestown</text>
+                            <circle cx="105" cy="78" r="3" fill="#4158D0"/>
+                            <circle cx="105" cy="78" r="5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="105" y="90" fill="#4a5058" font-size="7.5" font-family="Inter, sans-serif" font-weight="500" text-anchor="middle">Elmira</text>
+                            <circle cx="112" cy="42" r="3" fill="#4158D0"/>
+                            <circle cx="112" cy="42" r="5" fill="none" stroke="#4158D0" stroke-width="0.8" opacity="0.3"/>
+                            <text x="120" y="46" fill="#4a5058" font-size="7.5" font-family="Inter, sans-serif" font-weight="500" text-anchor="start">Auburn</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-bg"></div>
+        <div class="cta-content">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Get in touch today for a free consultation and quote. We serve businesses across Western and Central New York.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn-white">Request a Quote</a>
+                <a href="tel:585-267-5064" class="btn-secondary" style="border-color: white; color: white;">Call 585-267-5064</a>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="./" class="logo">
+                        <img src="images/mdc-logo.jpg" alt="MDC Assembly LLC" class="logo-icon" width="400" height="123">
+                    </a>
+                    <p>Professional commercial furniture and fixture installation services serving businesses throughout Western and Central New York.</p>
+                </div>
+                <div class="footer-column">
+                    <h2 class="footer-heading">Services</h2>
+                    <ul>
+                        <li><a href="services/office-furniture-installation.html">Office Furniture</a></li>
+                        <li><a href="services/cubicle-installation.html">Cubicle Installation</a></li>
+                        <li><a href="services/retail-fixtures.html">Retail Fixtures</a></li>
+                        <li><a href="services/corporate-relocation.html">Corporate Relocation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h2 class="footer-heading">Company</h2>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="service-areas.html">Service Areas</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h2 class="footer-heading">Contact</h2>
+                    <ul>
+                        <li><a href="tel:585-267-5064">585-267-5064</a></li>
+                        <li><a href="mailto:info@mdisplays.com">info@mdisplays.com</a></li>
+                        <li><a href="service-areas.html">2480 Browncroft Blvd, Suite 206</a></li>
+                        <li><a href="service-areas.html">Rochester, NY 14625</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MDC Assembly LLC. All rights reserved.</p>
+                <p>Professional Installation Services</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

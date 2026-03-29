@@ -104,7 +104,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    padding: 4px 40px;
+    padding: 12px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -353,7 +353,8 @@ nav {
 /* Page Hero (for inner pages) */
 .page-hero {
     padding: 160px 40px 80px;
-    background: linear-gradient(135deg, var(--dark-gray) 0%, var(--dark-gray-light) 100%);
+    background: linear-gradient(rgba(30, 35, 50, 0.78), rgba(30, 35, 50, 0.88)),
+                url('/images/work-conference-room.jpg') center/cover no-repeat;
     text-align: center;
 }
 
@@ -401,7 +402,8 @@ nav {
     padding: 100px 40px 80px;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(135deg, var(--dark-gray) 0%, var(--dark-gray-light) 100%);
+    background: linear-gradient(rgba(30, 35, 50, 0.75), rgba(30, 35, 50, 0.85)),
+                url('/images/work-office-meeting.jpg') center/cover no-repeat;
 }
 
 .hero-bg-pattern {
@@ -467,7 +469,7 @@ nav {
 }
 
 .hero-title .gradient-text {
-    background: linear-gradient(135deg, var(--blue-bright) 0%, var(--blue) 100%);
+    background: linear-gradient(135deg, #A0B4FF 0%, var(--blue-bright) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -486,7 +488,7 @@ nav {
 .hero-subtitle {
     font-size: 18px;
     line-height: 1.8;
-    color: var(--gray-300);
+    color: #e0e0e0;
     margin-bottom: 36px;
     max-width: 550px;
 }
@@ -513,7 +515,7 @@ nav {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 32px;
     font-weight: 700;
-    color: var(--blue-bright);
+    color: #A0B4FF;
     margin-bottom: 4px;
 }
 
@@ -806,7 +808,7 @@ nav {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--blue);
+    color: #A0B4FF;
     margin-bottom: 4px;
 }
 
@@ -856,7 +858,9 @@ nav {
 }
 
 .why-text {
-    color: var(--gray-200); /* Improved contrast */
+    font-size: 14px;
+    color: #F0F0F0;
+    line-height: 1.7;
 }
 
 .why-text-old {
@@ -982,16 +986,19 @@ nav {
 .cities-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 20px;
     margin-top: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .city-card {
     background: var(--white);
-    border-radius: 16px;
-    padding: 32px;
+    border-radius: 12px;
+    padding: 24px 16px 20px;
     text-align: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
     border: 1px solid var(--gray-200);
     transition: all 0.3s ease;
 }
@@ -1005,6 +1012,14 @@ nav {
 .city-icon {
     font-size: 40px;
     margin-bottom: 16px;
+}
+
+/* SVG mini-map in city cards */
+.city-map {
+    width: 110px;
+    height: 74px;
+    margin: 0 auto 12px;
+    display: block;
 }
 
 .city-name {
@@ -1211,8 +1226,8 @@ footer {
     margin-bottom: 16px;
 }
 
-.footer-brand .logo img {
-    /* filter removed - need white PNG logo */
+.footer-brand .logo-icon {
+    filter: brightness(0) invert(1);
     
 }
 
@@ -1449,7 +1464,13 @@ footer {
     }
 
     .cities-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .city-map {
+        width: 85px;
+        height: 57px;
     }
 }
 
@@ -1457,4 +1478,32 @@ footer {
     .gallery-grid {
         grid-template-columns: 1fr;
     }
+}
+
+/* 2D. Call Now CTA -- prominent in nav */
+nav .btn-primary.small {
+    background: linear-gradient(135deg, #3347B0 0%, #2A3A8F 100%);
+    box-shadow: 0 2px 8px rgba(51, 71, 176, 0.4);
+    letter-spacing: 0.3px;
+}
+nav .btn-primary.small:hover {
+    box-shadow: 0 4px 16px rgba(51, 71, 176, 0.5);
+}
+
+/* 2I. Contrast: darker gradient text on light backgrounds */
+.section-white .gradient-text,
+.section-gray .gradient-text {
+    background: linear-gradient(135deg, var(--blue-dark) 0%, #2A3A8F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* 2I. Brighter gradient text on dark backgrounds */
+.page-hero .gradient-text,
+.section-dark .gradient-text {
+    background: linear-gradient(135deg, #A0B4FF 0%, var(--blue-bright) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
