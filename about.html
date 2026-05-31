@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F7WE5J9793"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F7WE5J9793');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us | MDC Assembly LLC | Professional Furniture Installation</title>
@@ -18,7 +26,56 @@
     <meta name="twitter:description" content="Professional furniture and fixture installation company serving Western and Central New York. Licensed, insured, experienced crews.">
     <meta name="twitter:image" content="https://mdisplays.com/images/mdc-logo.jpg">
 
-    <link rel="icon" type="image/x-icon" href="images/mdc-logo.jpg">
+    <!-- AboutPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "About MDC Assembly LLC",
+        "description": "MDC Assembly LLC is a commercial furniture and fixture installation company based in Rochester, NY, serving businesses throughout Western and Central New York.",
+        "url": "https://mdisplays.com/about"
+    }
+    </script>
+
+    <!-- LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "MDC Assembly LLC",
+        "description": "Professional furniture and fixture installation company serving businesses throughout Western and Central New York.",
+        "url": "https://mdisplays.com",
+        "logo": "https://mdisplays.com/images/mdc-logo.jpg",
+        "image": "https://mdisplays.com/images/mdc-logo.jpg",
+        "telephone": "585-267-5064",
+        "email": "info@mdisplays.com",
+        "founder": {"@type": "Person", "name": "Thomas Karpen"},
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "2480 Browncroft Blvd, Suite 206",
+            "addressLocality": "Rochester",
+            "addressRegion": "NY",
+            "postalCode": "14625",
+            "addressCountry": "US"
+        },
+        "areaServed": ["Rochester NY", "Buffalo NY", "Syracuse NY", "Western and Central New York"]
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mdisplays.com/"},
+            {"@type": "ListItem", "position": 2, "name": "About", "item": "https://mdisplays.com/about"}
+        ]
+    }
+    </script>
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <!-- Preload critical resources -->
     <link rel="preload" href="css/styles.css" as="style">
@@ -35,7 +92,7 @@
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <nav>
-        <a href="./" class="logo">
+        <a href="/" class="logo">
             <img src="images/mdc-logo.jpg" alt="MDC Assembly LLC" class="logo-icon" width="400" height="123">
         </a>
         <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Toggle menu">
@@ -45,20 +102,20 @@
         </button>
         <div class="nav-links" id="navLinks">
             <div class="nav-dropdown">
-                <button class="nav-link nav-dropdown-btn" aria-haspopup="true" aria-expanded="false">Services</button>
+                <a href="/services" class="nav-link nav-dropdown-btn">Services</a>
                 <div class="nav-dropdown-menu" role="menu">
-                    <a href="services/office-furniture-installation.html" role="menuitem">Office Furniture</a>
-                    <a href="services/cubicle-installation.html" role="menuitem">Cubicle Installation</a>
-                    <a href="services/school-furniture.html" role="menuitem">School Furniture</a>
-                    <a href="services/corporate-relocation.html" role="menuitem">Corporate Relocation</a>
-                    <a href="services/retail-fixtures.html" role="menuitem">Retail Fixtures</a>
-                    <a href="services/hospitality-installation.html" role="menuitem">Hospitality</a>
+                    <a href="/services/office-furniture" role="menuitem">Office Furniture</a>
+                    <a href="/services/cubicle-installation" role="menuitem">Cubicle Installation</a>
+                    <a href="/services/school-furniture" role="menuitem">School Furniture</a>
+                    <a href="/services/corporate-relocation" role="menuitem">Corporate Relocation</a>
+                    <a href="/services/retail-fixtures" role="menuitem">Retail Fixtures</a>
+                    <a href="/services/hospitality" role="menuitem">Hospitality</a>
                 </div>
             </div>
-            <a href="about.html" class="nav-link active">About</a>
-            <a href="gallery.html" class="nav-link">Gallery</a>
-            <a href="service-areas.html" class="nav-link">Service Areas</a>
-            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="/about" class="nav-link active">About</a>
+            <a href="/gallery" class="nav-link">Gallery</a>
+            <a href="/service-areas" class="nav-link">Service Areas</a>
+            <a href="/contact" class="nav-link">Contact</a>
             <a href="tel:585-267-5064" class="btn-primary small">Call Now</a>
         </div>
     </nav>
@@ -67,7 +124,7 @@
     <section class="page-hero" id="main-content">
         <div class="container">
             <div class="breadcrumb">
-                <a href="./">Home</a>
+                <a href="/">Home</a>
                 <span>/</span>
                 <span>About</span>
             </div>
@@ -196,7 +253,7 @@
             <h2>Ready to Work With Us?</h2>
             <p>Get in touch today for a free consultation and quote on your furniture installation project.</p>
             <div class="cta-buttons">
-                <a href="contact.html" class="btn-white">Request a Quote</a>
+                <a href="/contact" class="btn-white">Request a Quote</a>
                 <a href="tel:585-267-5064" class="btn-secondary" style="border-color: white; color: white;">Call 585-267-5064</a>
             </div>
         </div>
@@ -207,7 +264,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="./" class="logo">
+                    <a href="/" class="logo">
                         <img src="images/mdc-logo-inverted.jpg" alt="MDC Assembly LLC" class="logo-icon" width="400" height="123">
                     </a>
                     <p>Professional commercial furniture and fixture installation services serving businesses throughout Western and Central New York.</p>
@@ -215,18 +272,19 @@
                 <div class="footer-column">
                     <h2 class="footer-heading">Services</h2>
                     <ul>
-                        <li><a href="services/office-furniture-installation.html">Office Furniture</a></li>
-                        <li><a href="services/cubicle-installation.html">Cubicle Installation</a></li>
-                        <li><a href="services/retail-fixtures.html">Retail Fixtures</a></li>
-                        <li><a href="services/corporate-relocation.html">Corporate Relocation</a></li>
+                        <li><a href="/services/office-furniture">Office Furniture</a></li>
+                        <li><a href="/services/cubicle-installation">Cubicle Installation</a></li>
+                        <li><a href="/services/retail-fixtures">Retail Fixtures</a></li>
+                        <li><a href="/services/corporate-relocation">Corporate Relocation</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h2 class="footer-heading">Company</h2>
                     <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="service-areas.html">Service Areas</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/service-areas">Service Areas</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
@@ -234,8 +292,8 @@
                     <ul>
                         <li><a href="tel:585-267-5064">585-267-5064</a></li>
                         <li><a href="mailto:info@mdisplays.com">info@mdisplays.com</a></li>
-                        <li><a href="service-areas.html">2480 Browncroft Blvd, Suite 206</a></li>
-                        <li><a href="service-areas.html">Rochester, NY 14625</a></li>
+                        <li><a href="/service-areas">2480 Browncroft Blvd, Suite 206</a></li>
+                        <li><a href="/service-areas">Rochester, NY 14625</a></li>
                     </ul>
                 </div>
             </div>

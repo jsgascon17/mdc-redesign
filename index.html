@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F7WE5J9793"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F7WE5J9793');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MDC Assembly LLC | Professional Furniture & Fixture Installation</title>
-    <meta name="description" content="MDC Assembly LLC provides professional office furniture installation, cubicle installation, and corporate relocation services across Western and Central New York including Rochester, Buffalo, Syracuse, and surrounding areas.">
+    <meta name="description" content="Professional office furniture, cubicle &amp; corporate relocation installation across Western &amp; Central NY — Rochester, Buffalo &amp; Syracuse. Free quotes.">
     <link rel="canonical" href="https://mdisplays.com/">
 
     <!-- OpenGraph tags (social sharing) -->
@@ -147,7 +155,8 @@
     }
     </script>
 
-    <link rel="icon" type="image/x-icon" href="images/mdc-logo.jpg">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <!-- Preload critical resources -->
     <link rel="preload" href="css/styles.css" as="style">
@@ -165,7 +174,7 @@
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <!-- Navigation -->
     <nav>
-        <a href="./" class="logo">
+        <a href="/" class="logo">
             <img src="images/mdc-logo.jpg" alt="MDC Assembly LLC" class="logo-icon" width="400" height="123">
         </a>
         <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Toggle menu">
@@ -175,20 +184,20 @@
         </button>
         <div class="nav-links" id="navLinks">
             <div class="nav-dropdown">
-                <button class="nav-link nav-dropdown-btn" aria-haspopup="true" aria-expanded="false">Services</button>
+                <a href="/services" class="nav-link nav-dropdown-btn">Services</a>
                 <div class="nav-dropdown-menu" role="menu">
-                    <a href="services/office-furniture-installation.html" role="menuitem">Office Furniture</a>
-                    <a href="services/cubicle-installation.html" role="menuitem">Cubicle Installation</a>
-                    <a href="services/school-furniture.html" role="menuitem">School Furniture</a>
-                    <a href="services/corporate-relocation.html" role="menuitem">Corporate Relocation</a>
-                    <a href="services/retail-fixtures.html" role="menuitem">Retail Fixtures</a>
-                    <a href="services/hospitality-installation.html" role="menuitem">Hospitality</a>
+                    <a href="/services/office-furniture" role="menuitem">Office Furniture</a>
+                    <a href="/services/cubicle-installation" role="menuitem">Cubicle Installation</a>
+                    <a href="/services/school-furniture" role="menuitem">School Furniture</a>
+                    <a href="/services/corporate-relocation" role="menuitem">Corporate Relocation</a>
+                    <a href="/services/retail-fixtures" role="menuitem">Retail Fixtures</a>
+                    <a href="/services/hospitality" role="menuitem">Hospitality</a>
                 </div>
             </div>
-            <a href="about.html" class="nav-link">About</a>
-            <a href="gallery.html" class="nav-link">Gallery</a>
-            <a href="service-areas.html" class="nav-link">Service Areas</a>
-            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="/about" class="nav-link">About</a>
+            <a href="/gallery" class="nav-link">Gallery</a>
+            <a href="/service-areas" class="nav-link">Service Areas</a>
+            <a href="/contact" class="nav-link">Contact</a>
             <a href="tel:585-267-5064" class="btn-primary small">Call Now</a>
         </div>
     </nav>
@@ -209,7 +218,7 @@
                     From office cubicles to school furniture, MDC Assembly LLC delivers expert installation services with precision, reliability, and unmatched professionalism across Western and Central New York.
                 </p>
                 <div class="hero-buttons fade-up fade-up-4">
-                    <a href="contact.html" class="btn-primary">Get a Free Quote</a>
+                    <a href="/contact" class="btn-primary">Get a Free Quote</a>
                     <a href="tel:585-267-5064" class="btn-secondary">Call 585-267-5064</a>
                 </div>
                 <div class="hero-stats fade-up fade-up-4">
@@ -241,7 +250,7 @@
                 </p>
             </div>
             <div class="services-grid">
-                <a href="services/office-furniture-installation.html" class="service-card-link">
+                <a href="/services/office-furniture" class="service-card-link">
                     <div class="service-card">
                         <div class="service-icon">🏢</div>
                         <h3 class="service-title">Office Furniture Installation</h3>
@@ -250,7 +259,7 @@
                         </p>
                     </div>
                 </a>
-                <a href="services/cubicle-installation.html" class="service-card-link">
+                <a href="/services/cubicle-installation" class="service-card-link">
                     <div class="service-card">
                         <div class="service-icon">📐</div>
                         <h3 class="service-title">Cubicle Installation, Reconfiguration & Tear Down</h3>
@@ -259,7 +268,7 @@
                         </p>
                     </div>
                 </a>
-                <a href="services/school-furniture.html" class="service-card-link">
+                <a href="/services/school-furniture" class="service-card-link">
                     <div class="service-card">
                         <div class="service-icon">🎓</div>
                         <h3 class="service-title">School Furniture</h3>
@@ -268,7 +277,7 @@
                         </p>
                     </div>
                 </a>
-                <a href="services/corporate-relocation.html" class="service-card-link">
+                <a href="/services/corporate-relocation" class="service-card-link">
                     <div class="service-card">
                         <div class="service-icon">🚚</div>
                         <h3 class="service-title">Corporate Relocation</h3>
@@ -277,7 +286,7 @@
                         </p>
                     </div>
                 </a>
-                <a href="services/retail-fixtures.html" class="service-card-link">
+                <a href="/services/retail-fixtures" class="service-card-link">
                     <div class="service-card">
                         <div class="service-icon">🏪</div>
                         <h3 class="service-title">Retail Store Fixtures</h3>
@@ -286,7 +295,7 @@
                         </p>
                     </div>
                 </a>
-                <a href="services/hospitality-installation.html" class="service-card-link">
+                <a href="/services/hospitality" class="service-card-link">
                     <div class="service-card">
                         <div class="service-icon">🏨</div>
                         <h3 class="service-title">Hospitality Installation</h3>
@@ -330,7 +339,7 @@
                             <span class="about-feature-text">Competitive Pricing</span>
                         </div>
                     </div>
-                    <a href="about.html" class="btn-secondary" style="margin-top: 24px;">Learn More About Us</a>
+                    <a href="/about" class="btn-secondary" style="margin-top: 24px;">Learn More About Us</a>
                 </div>
                 <div class="about-image">
                     <div class="about-image-pattern"></div>
@@ -400,44 +409,62 @@
             </div>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="images/work-office-desk.jpg" alt="Office furniture installation" width="1200" height="900" loading="lazy">
+                    <picture>
+                        <source srcset="images/work-office-desk.webp" type="image/webp">
+                        <img src="images/work-office-desk.jpg" alt="Office furniture installation" width="1200" height="900" loading="lazy">
+                    </picture>
                     <div class="gallery-item-overlay">
                         <span class="gallery-item-title">Office Furniture</span>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/work-conference-room.jpg" alt="Conference room setup" width="1200" height="1600" loading="lazy">
+                    <picture>
+                        <source srcset="images/work-conference-room.webp" type="image/webp">
+                        <img src="images/work-conference-room.jpg" alt="Conference room setup" width="1200" height="1600" loading="lazy">
+                    </picture>
                     <div class="gallery-item-overlay">
                         <span class="gallery-item-title">Conference Room</span>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/work-classroom.jpg" alt="Classroom furniture installation" width="1200" height="900" loading="lazy">
+                    <picture>
+                        <source srcset="images/work-classroom.webp" type="image/webp">
+                        <img src="images/work-classroom.jpg" alt="Classroom furniture installation" width="1200" height="900" loading="lazy">
+                    </picture>
                     <div class="gallery-item-overlay">
                         <span class="gallery-item-title">School Classroom</span>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/work-school-reception.jpg" alt="School reception desk" width="1200" height="900" loading="lazy">
+                    <picture>
+                        <source srcset="images/work-school-reception.webp" type="image/webp">
+                        <img src="images/work-school-reception.jpg" alt="School reception desk" width="1200" height="900" loading="lazy">
+                    </picture>
                     <div class="gallery-item-overlay">
                         <span class="gallery-item-title">School Reception</span>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/work-office-meeting.jpg" alt="Office with meeting area" width="1200" height="1600" loading="lazy">
+                    <picture>
+                        <source srcset="images/work-office-meeting.webp" type="image/webp">
+                        <img src="images/work-office-meeting.jpg" alt="Office with meeting area" width="1200" height="1600" loading="lazy">
+                    </picture>
                     <div class="gallery-item-overlay">
                         <span class="gallery-item-title">Office Setup</span>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/work-retail-fixtures.jpg" alt="Retail store fixtures" width="1200" height="900" loading="lazy">
+                    <picture>
+                        <source srcset="images/work-retail-fixtures.webp" type="image/webp">
+                        <img src="images/work-retail-fixtures.jpg" alt="Retail store fixtures" width="1200" height="900" loading="lazy">
+                    </picture>
                     <div class="gallery-item-overlay">
                         <span class="gallery-item-title">Retail Fixtures</span>
                     </div>
                 </div>
             </div>
             <div style="text-align: center; margin-top: 40px;">
-                <a href="gallery.html" class="btn-secondary">View Full Gallery</a>
+                <a href="/gallery" class="btn-secondary">View Full Gallery</a>
             </div>
         </div>
     </section>
@@ -466,7 +493,7 @@
                         <span class="coverage-tag">Utica</span>
                         <span class="coverage-tag">Jamestown</span>
                     </div>
-                    <a href="service-areas.html" class="btn-secondary" style="margin-top: 24px;">View All Service Areas</a>
+                    <a href="/service-areas" class="btn-secondary" style="margin-top: 24px;">View All Service Areas</a>
                 </div>
                 <div class="coverage-map" style="background: #fafaf7; padding: 40px 24px;">
                     <svg viewBox="0 0 350 220" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;">
@@ -531,7 +558,7 @@
             <h2>Ready to Start Your Project?</h2>
             <p>Get in touch today for a free consultation and quote. We're here to make your installation project a success.</p>
             <div class="cta-buttons">
-                <a href="contact.html" class="btn-white">Request a Quote</a>
+                <a href="/contact" class="btn-white">Request a Quote</a>
                 <a href="tel:585-267-5064" class="btn-secondary" style="border-color: white; color: white;">Call 585-267-5064</a>
             </div>
         </div>
@@ -543,7 +570,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="./" class="logo">
+                    <a href="/" class="logo">
                         <img src="images/mdc-logo-inverted.jpg" alt="MDC Assembly LLC" class="logo-icon" width="400" height="123">
                     </a>
                     <p>Professional commercial furniture and fixture installation services serving businesses throughout Western and Central New York.</p>
@@ -551,18 +578,19 @@
                 <div class="footer-column">
                     <h2 class="footer-heading">Services</h2>
                     <ul>
-                        <li><a href="services/office-furniture-installation.html">Office Furniture</a></li>
-                        <li><a href="services/cubicle-installation.html">Cubicle Installation</a></li>
-                        <li><a href="services/retail-fixtures.html">Retail Fixtures</a></li>
-                        <li><a href="services/corporate-relocation.html">Corporate Relocation</a></li>
+                        <li><a href="/services/office-furniture">Office Furniture</a></li>
+                        <li><a href="/services/cubicle-installation">Cubicle Installation</a></li>
+                        <li><a href="/services/retail-fixtures">Retail Fixtures</a></li>
+                        <li><a href="/services/corporate-relocation">Corporate Relocation</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h2 class="footer-heading">Company</h2>
                     <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="service-areas.html">Service Areas</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/service-areas">Service Areas</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
@@ -570,8 +598,8 @@
                     <ul>
                         <li><a href="tel:585-267-5064">585-267-5064</a></li>
                         <li><a href="mailto:info@mdisplays.com">info@mdisplays.com</a></li>
-                        <li><a href="service-areas.html">2480 Browncroft Blvd<br>Suite 206</a></li>
-                        <li><a href="service-areas.html">Rochester, NY 14625</a></li>
+                        <li><a href="/service-areas">2480 Browncroft Blvd<br>Suite 206</a></li>
+                        <li><a href="/service-areas">Rochester, NY 14625</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,0 +1,77 @@
+# MDC Assembly — clean URLs + security + WP→static 301s
+Options -Indexes +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+# Don't let mod_dir 301-redirect /services -> /services/ before our rule maps it
+DirectorySlash Off
+
+# --- Security: block sensitive files/dirs ---
+# Block any dotfile/dir (.git, .htaccess access, etc.) except .well-known (ACME/SSL)
+RewriteRule (^|/)\.(?!well-known) - [F,L]
+# Block source/internal docs and backups by extension
+<FilesMatch "\.(md|bak|log|inc)$">
+    Require all denied
+</FilesMatch>
+
+# ============================================
+# 301 Redirects: Old WordPress URLs -> New Static URLs
+# Specific rules FIRST (each matches optional trailing slash = single hop),
+# generic trailing-slash strip LAST, so nothing chains.
+# ============================================
+
+# --- Service pages (targets are the canonical long-form clean URLs) ---
+RewriteRule ^office-furniture-installation/?$ /services/office-furniture-installation [R=301,L]
+RewriteRule ^office-furniture-installers/?$ /services/office-furniture-installation [R=301,L]
+RewriteRule ^cubicle-installation-services/?$ /services/cubicle-installation [R=301,L]
+RewriteRule ^school-furniture-installation/?$ /services/school-furniture [R=301,L]
+RewriteRule ^corporate-relocation-services/?$ /services/corporate-relocation [R=301,L]
+RewriteRule ^retail-fixture-installation/?$ /services/retail-fixtures [R=301,L]
+RewriteRule ^hospitality-furniture-installers/?$ /services/hospitality-installation [R=301,L]
+
+# --- Other pages ---
+RewriteRule ^furniture-installation-company/?$ /about [R=301,L]
+RewriteRule ^furniture-assembly-and-delivery/?$ /services [R=301,L]
+
+# --- Location landing pages (fold into closest service) ---
+RewriteRule ^office-furniture-installation-canandaigua-ny/?$ /services/office-furniture-installation [R=301,L]
+RewriteRule ^school-furniture-installation-rochester-ny/?$ /services/school-furniture [R=301,L]
+RewriteRule ^shelving-system-installation-buffalo-ny/?$ /services/retail-fixtures [R=301,L]
+RewriteRule ^store-fixture-installation-new-product-roll-out/?$ /services/retail-fixtures [R=301,L]
+
+# --- Blog / taxonomy / author ---
+RewriteRule ^our-new-site-is-live/?$ / [R=301,L]
+RewriteRule ^author/.*$ / [R=301,L]
+RewriteRule ^category/completed-projects/?$ /gallery [R=301,L]
+RewriteRule ^category/.*$ / [R=301,L]
+RewriteRule ^tag/.*$ / [R=301,L]
+
+# --- Old WordPress entry points ---
+RewriteRule ^wp-admin(.*)$ / [R=301,L]
+RewriteRule ^wp-login\.php$ / [R=301,L]
+
+# --- Generic trailing-slash strip (canonical = no trailing slash) ---
+# Runs AFTER the specific redirects. Skips real directories (services/, css/, images/).
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# ============================================
+# Internal rewrites (clean URLs -> files)
+# ============================================
+
+# --- Services overview (clean 200, no redirect) ---
+RewriteRule ^services/?$ services/index.html [L]
+
+# --- Service pages whose filename differs from the clean path ---
+RewriteRule ^services/office-furniture/?$ services/office-furniture-installation.html [L]
+RewriteRule ^services/hospitality/?$ services/hospitality-installation.html [L]
+
+# --- Generic clean URLs: /path -> /path.html when that file exists ---
+# (skips real files and directories, so /about.html and /images/ still work)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+# --- Custom 404 page ---
+ErrorDocument 404 /404.html
