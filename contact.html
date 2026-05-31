@@ -176,8 +176,16 @@
 
                 <div class="contact-form-wrapper">
                     <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-                        <input type="hidden" name="access_key" value="921085d4-7a50-4a6c-95ac-296435c3cf1d">
-                        <input type="hidden" name="subject" value="New Contact from MDC Assembly Website">
+                        <input type="hidden" name="access_key" value="963bdfe9-3fb4-4a34-a58c-a2c0c9cbe47b">
+
+                        <!-- Spam protection: honeypot field (bots fill this, humans don't see it) -->
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                        <!-- Redirect to our thank-you page after submission -->
+                        <input type="hidden" name="redirect" value="https://mdisplays.com/thank-you">
+
+                        <!-- Dynamic subject: {{name}} is filled in by Web3Forms from the visitor's name -->
+                        <input type="hidden" name="subject" value="MDC Website Inquiry from {{name}}">
                         <h3>Send Us a Message</h3>
                         <div class="form-row">
                             <div class="form-group">
