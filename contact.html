@@ -184,8 +184,7 @@
                         <!-- Redirect to our thank-you page after submission -->
                         <input type="hidden" name="redirect" value="https://mdisplays.com/thank-you">
 
-                        <!-- Dynamic subject: {{name}} is filled in by Web3Forms from the visitor's name -->
-                        <input type="hidden" name="subject" value="MDC Website Inquiry from {{name}}">
+                        <input type="hidden" name="subject" value="New Website Inquiry - MDC Assembly">
                         <h3>Send Us a Message</h3>
                         <div class="form-row">
                             <div class="form-group">
@@ -281,6 +280,18 @@
             const navLinks = document.getElementById('navLinks');
             navLinks.classList.toggle('active');
         }
+    </script>
+
+    <script>
+        // Set the email subject with the visitor's name right before submit
+        // (client-side, so it works regardless of Web3Forms template support)
+        document.querySelector('.contact-form').addEventListener('submit', function() {
+            var nameField = this.querySelector('input[name="name"]');
+            var subjectField = this.querySelector('input[name="subject"]');
+            if (nameField && nameField.value) {
+                subjectField.value = 'New Inquiry from ' + nameField.value + ' - MDC Assembly';
+            }
+        });
     </script>
 </body>
 </html>
