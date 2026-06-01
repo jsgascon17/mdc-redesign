@@ -1520,3 +1520,9 @@ nav .btn-primary.small:hover {
 .contact-form textarea:valid:not(:placeholder-shown) {
   border-color: #28a745;
 }
+
+/* Service-areas: city cards (pin icon + descriptor) */
+.city-pin { width: 30px; height: 30px; margin: 0 auto 12px; display: block; }
+.city-desc { font-size: 14px; line-height: 1.5; color: var(--gray-600); margin: 0; }
+.city-card.hq { border-color: var(--blue-light); }
+.hq-badge { display:inline-block; font-family:"Inter",sans-serif; font-size:11px; font-weight:700; color:#0055FA; background:rgba(0,85,250,0.10); border-radius:6px; padding:1px 7px; vertical-align:middle; margin-left:4px; }
