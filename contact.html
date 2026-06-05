@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F7WE5J9793"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-F7WE5J9793');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | MDC Assembly LLC | Get a Free Quote</title>
@@ -79,7 +71,7 @@
 
     <!-- Preload critical resources -->
     <link rel="preload" href="css/styles.css" as="style">
-    <link rel="preload" href="images/mdc-logo.jpg" as="image">
+    <link rel="preload" href="images/mdc-logo.webp" as="image" type="image/webp">
 
     <!-- Google Fonts - load asynchronously -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -93,7 +85,10 @@
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <nav>
         <a href="/" class="logo">
-            <img src="images/mdc-logo.jpg" alt="MDC Assembly LLC" class="logo-icon" width="400" height="123">
+            <picture>
+                <source srcset="images/mdc-logo.webp" type="image/webp">
+                <img src="images/mdc-logo.jpg" alt="MDC Assembly LLC" class="logo-icon" width="400" height="123" fetchpriority="high">
+            </picture>
         </a>
         <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Toggle menu">
             <span></span>
@@ -236,7 +231,10 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="/" class="logo">
-                        <img src="images/mdc-logo-inverted.jpg" alt="MDC Assembly LLC" class="logo-icon" width="400" height="123">
+                        <picture>
+                            <source srcset="images/mdc-logo-inverted.webp" type="image/webp">
+                            <img src="images/mdc-logo-inverted.jpg" alt="MDC Assembly LLC" class="logo-icon" width="400" height="123" decoding="async">
+                        </picture>
                     </a>
                     <p>Professional commercial furniture and fixture installation services serving businesses throughout Western and Central New York.</p>
                 </div>
@@ -292,6 +290,15 @@
                 subjectField.value = 'New Inquiry from ' + nameField.value + ' - MDC Assembly';
             }
         });
+    </script>
+
+    <!-- Google Analytics 4 - loaded after page content -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F7WE5J9793"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F7WE5J9793');
     </script>
 </body>
 </html>
