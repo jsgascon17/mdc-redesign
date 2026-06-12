@@ -1,0 +1,5 @@
+# Internal docs live in the consulting clients/<name>/docs tree — never in the site repo/webroot.
+# Editor/backup/log artifacts.
+*.md
+*.bak
+*.log
